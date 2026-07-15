@@ -12,6 +12,8 @@ const FBConf = {
 
 // Initialize Firebase
 const app = initializeApp(FBConf);
+const db = getFirestore(app);
+
 
 // CONSTANTS
 
