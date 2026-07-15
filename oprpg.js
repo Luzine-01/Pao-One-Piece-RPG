@@ -3994,7 +3994,7 @@ function checkWelcome() {
       <div class="welcome-logo">RWBY DnD</div>
       <div class="welcome-sub">Homebrew · Remnant</div>
       <h2 class="welcome-title">Who are you?</h2>
-      <p class="welcome-text">Choose your character each time you join. Taken characters are greyed out.</p>
+      <p class="welcome-text">Testing testing 123</p>
       <div class="welcome-chars" id="welcomeCharList"></div>
       <div class="welcome-actions">
         <button class="neo-btn ghost" id="welcomeSkipBtn">I'm just watching</button>
