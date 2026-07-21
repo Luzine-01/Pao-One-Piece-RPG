@@ -7,9 +7,11 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 1s, 1s, 500ms;
-  transition-property: margin, color, background-color;
+  transition-duration: 1s, 1s, 1s, 500ms;
+  transition-property: width, height, color, background-color;
+  width: 120px;
+  height: 80px;
+  margin: 0 auto;
 }
 
 .button1 {
@@ -21,16 +23,6 @@
 .button1:hover {
   background-color: #B09B4F;
   color: white;
-  margin: 6px 4px;
-}
-
-.button2 {
-  background-color: white;
-  color: black;
-  border: 2px solid #008CBA;
-}
-
-.button2:hover {
-  background-color: #008CBA;
-  color: white;
+  width: 125px;
+  height: 85px;
 }
