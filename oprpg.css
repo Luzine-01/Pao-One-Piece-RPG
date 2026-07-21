@@ -10,7 +10,6 @@
   margin: 4px 2px;
   transition-duration: 1s, 1s, 500ms;
   transition-property: margin, color, background-color;
-  cursor: pointer;
 }
 
 .button1 {
