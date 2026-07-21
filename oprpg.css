@@ -13,13 +13,13 @@
 }
 
 .button1 {
-  background-color: white;
+  background-color: #DEC670;
   color: black;
-  border: 2px solid #04AA6D;
+  border: 2px solid #B19B4D;
 }
 
 .button1:hover {
-  background-color: #04AA6D;
+  background-color: #B09B4F;
   color: white;
 }
 
