@@ -1,3 +1,33 @@
+:root {
+  --bg:        #020106;
+  --panel:     rgba(8,5,16,.97);
+  --line:      rgba(255,255,255,.05);
+  --line-c:    rgba(0,210,255,.18);
+  --text:      #c4d8f4;
+  --muted:     #485870;
+  --accent:    #c0000a;
+  --accent2:   #3a0008;
+  --aura:      #00d4ff;
+  --aura2:     #005888;
+  --aura-glow: rgba(0,212,255,.28);
+  --safe:      #00e890;
+  --warn:      #ff9900;
+  --danger:    #ff1a2e;
+  --r: 14px; --rs: 9px;
+  --F1:'Orbitron',sans-serif;
+  --F2:'Share Tech Mono',monospace;
+  --F3:'Exo 2',sans-serif;
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{min-height:100%;color:var(--text);font-family:var(--F3);font-size:15px}
+body{
+  overflow-x:hidden;
+  background:
+    radial-gradient(ellipse 80% 60% at 0% 0%,   rgba(140,0,8,.28),  transparent),
+    radial-gradient(ellipse 60% 60% at 100% 100%, rgba(0,20,50,.5),   transparent),
+    #020106;
+}
 .button {
   padding: 16px 32px;
   text-align: center;
