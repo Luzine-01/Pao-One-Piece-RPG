@@ -13,7 +13,7 @@
   --safe:      #00e890;
   --warn:      #ff9900;
   --danger:    #ff1a2e;
-  --r: 14px; --rs: 9px;
+  --r: 50px; --rs: 9px;
   --F1:'Orbitron',sans-serif;
   --F2:'Share Tech Mono',monospace;
   --F3:'Exo 2',sans-serif;
@@ -28,6 +28,7 @@ body{
     radial-gradient(ellipse 60% 60% at 100% 100%, rgba(0,20,50,.5),   transparent),
     #020106;
 }
+
 .button {
   padding: 16px 32px;
   text-align: center;
