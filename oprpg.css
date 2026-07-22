@@ -5,6 +5,8 @@ border box margin 0 and padding 0. Bob was cooking here ngl */
 .menubtn {
   background-color: #dec670e5;
   color: black;
+  border:1px solid rgb(124, 146, 0);
+  border-radius:9px;
   transition-duration: 1s, 1s, 500ms;
   transition-property: transform, color, background-color;
 }
@@ -24,5 +26,5 @@ border box margin 0 and padding 0. Bob was cooking here ngl */
   overflow-y:auto;scrollbar-width:thin;scrollbar-color:rgba(202, 197, 149, 0.671) transparent;
 }
 .sidebar-section{margin:-.9rem;padding:.7rem;border:1px solid rgba(214, 212, 68, 0.822);background:rgba(238, 255, 0, 0.116)}
-.sidebar-buttons{display:flex;flex-direction:column;gap:.38rem;border:1px solid rgb(124, 146, 0);border-radius:9px;}
+.sidebar-buttons{display:flex;flex-direction:column;gap:.38rem;}
 .app{position:relative;z-index:1;min-height:100vh;display:grid;grid-template-columns:230px 1fr}
