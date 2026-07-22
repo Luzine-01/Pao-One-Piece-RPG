@@ -23,6 +23,6 @@ border box margin 0 and padding 0. Bob was cooking here ngl */
   position:sticky;left:5px;height:98vh;top:1vh;
   overflow-y:auto;scrollbar-width:thin;scrollbar-color:rgba(202, 197, 149, 0.671) transparent;
 }
-.sidebar-section{position:absolute;padding:.7rem;border-radius:9px;border:1px solid rgba(214, 212, 68, 0.822);background:rgba(238, 255, 0, 0.116)}
+.sidebar-section{padding:.7rem;border-radius:9px;border:1px solid rgba(214, 212, 68, 0.822);background:rgba(238, 255, 0, 0.116)}
 .sidebar-buttons{display:flex;flex-direction:column;gap:.38rem;border-radius:9px;border-color: black;}
 .app{position:relative;z-index:1;min-height:100vh;display:grid;grid-template-columns:230px 1fr}
