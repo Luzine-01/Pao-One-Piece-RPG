@@ -20,7 +20,6 @@ border box margin 0 and padding 0. Bob was cooking here ngl */
   border: 2px solid #B19B4D;
   transition-duration: 1s, 1s, 500ms;
   transition-property: transform, color, background-color;
-  margin: 0 auto;
 }
 
 .button1:hover {
