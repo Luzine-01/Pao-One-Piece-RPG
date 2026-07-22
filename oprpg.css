@@ -2,14 +2,14 @@
 border box margin 0 and padding 0. Bob was cooking here ngl */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 
-.button1 {
+.btn-menu {
   background-color: #DEC670;
   color: black;
   transition-duration: 1s, 1s, 500ms;
   transition-property: transform, color, background-color;
 }
 
-.button1:hover {
+.btn-menu:hover {
   background-color: #B09B4F;
   color: white;
   transform: scale(110%)
