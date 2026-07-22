@@ -15,7 +15,7 @@ border box margin 0 and padding 0. Bob was cooking here ngl */
   transform: scale(110%)
 }
 .sidebar{
-  display:inline-flex;flex-direction:column;gap:.75rem;
+  display:absolute;flex-direction:column;gap:.75rem;
   padding:1rem .9rem;
   background:rgba(255, 203, 15, 0.459);
   border-right:1px solid rgba(218, 255, 56, 0.801);
