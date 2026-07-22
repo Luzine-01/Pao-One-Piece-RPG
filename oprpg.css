@@ -24,5 +24,5 @@ border box margin 0 and padding 0. Bob was cooking here ngl */
   overflow-y:auto;scrollbar-width:thin;scrollbar-color:rgba(202, 197, 149, 0.671) transparent;
 }
 .sidebar-section{margin:-.9rem;padding:.7rem;border:1px solid rgba(214, 212, 68, 0.822);background:rgba(238, 255, 0, 0.116)}
-.sidebar-buttons{display:flex;flex-direction:column;gap:.38rem;border-radius:9px;border-color: rgb(124, 146, 0);}
+.sidebar-buttons{display:flex;flex-direction:column;gap:.38rem;border:1px solid rgb(124, 146, 0);border-radius:9px;}
 .app{position:relative;z-index:1;min-height:100vh;display:grid;grid-template-columns:230px 1fr}
