@@ -20,7 +20,7 @@ border box margin 0 and padding 0. Bob was cooking here ngl */
   background:rgba(255, 203, 15, 0.459);
   border-right:1px solid rgba(218, 255, 56, 0.801);
   border-radius: 9px;
-  position:relative;top:12px;left:5px;height:99vh;
+  position:sticky;top:8px;left:5px;bottom:8px;height:99vh;
   overflow-y:auto;scrollbar-width:thin;scrollbar-color:rgba(202, 197, 149, 0.671) transparent;
 }
 .sidebar-section{padding:.7rem;border-radius:9px;border:1px solid rgba(235, 232, 85, 0.404);background:rgba(0,210,255,.012)}
